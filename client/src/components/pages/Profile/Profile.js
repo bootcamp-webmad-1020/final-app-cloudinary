@@ -1,9 +1,9 @@
 import { Container } from 'react-bootstrap'
 
-const Profile = ({ user }) => {
+const Profile = ({ loggedUser }) => {
     return (
         <Container>
-            <h1>¡Bienvenid@, {user.username}!</h1>
+            <h1>¡Bienvenid@, {loggedUser.username}!</h1>
         </Container>
     )
 }
