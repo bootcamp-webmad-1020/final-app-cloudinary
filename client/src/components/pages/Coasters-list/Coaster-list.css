@@ -1,0 +1,8 @@
+.coaster-card {
+    margin-bottom: 30px;
+}
+
+.coaster-card img {
+    height: 140px;
+    object-fit: cover;
+}   
